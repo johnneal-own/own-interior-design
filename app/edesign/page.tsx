@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import { ArrowLeft, ChevronDown, ChevronUp, Check } from 'lucide-react';
@@ -28,12 +29,12 @@ export default function eDesignPage() {
   };
 
   const faqs = [
-    { q: "What exactly is own. eDesign?", a: "A rigidly structured digital interior design service. We provide professional layouts, material coordination, and shopping specifications remotely. You maintain control of the budget and manage the physical purchasing and tradesman installation at your own pace." },
-    { q: "Do my measurements need to be exact?", a: "Yes. Because we operate entirely remotely, our CAD layouts are built directly on the accuracy of the measurements you provide via the portal. We supply a simple guide to aid you in this process." },
-    { q: "How many revisions are included?", a: "Every package encompasses one consolidated round of revisions. This keeps the project moving smoothly and secures aesthetic alignment without endless timeline drift." },
-    { q: "Does this work for rented properties?", a: "Absolutely. We specify non-permanent, high-impact fixtures alongside curated FF&E that easily elevates your space without risking your deposit." },
-    { q: "Can I use this service for a kitchen or extension remodel?", a: "No. Extensive architectural scopes involving plumbing, major electrical grids, and structural reconfiguration require bespoke design and localised coordination beyond a remote package." },
-    { q: "What happens after I purchase?", a: "You will immediately secure your slot in our studio schedule and be redirected to our secure Client Portal. You simply complete your project brief, upload your photos/dimensions, and our studio review kicks off the timeline." }
+    { q: "What exactly is own. eDesign?", a: "A rigidly structured digital interior design service. We provide professional layouts, material coordination, and shopping specifications remotely. Yo[...]
+    { q: "Do my measurements need to be exact?", a: "Yes. Because we operate entirely remotely, our CAD layouts are built directly on the accuracy of the measurements you provide via the portal. W[...]
+    { q: "How many revisions are included?", a: "Every package encompasses one consolidated round of revisions. This keeps the project moving smoothly and secures aesthetic alignment without endle[...]
+    { q: "Does this work for rented properties?", a: "Absolutely. We specify non-permanent, high-impact fixtures alongside curated FF&E that easily elevates your space without risking your deposit[...]
+    { q: "Can I use this service for a kitchen or extension remodel?", a: "No. Extensive architectural scopes involving plumbing, major electrical grids, and structural reconfiguration require bes[...]
+    { q: "What happens after I purchase?", a: "You will immediately secure your slot in our studio schedule and be redirected to our secure Client Portal. You simply complete your project brief, u[...]
   ];
 
   return (
@@ -68,7 +69,7 @@ export default function eDesignPage() {
 
         <div className="h-px w-24 bg-[#B37038] mb-8 opacity-50"></div>
         <p className="max-w-2xl text-zinc-500 tracking-[0.1em] leading-loose text-sm md:text-base font-light mb-12">
-          The layout logic, material expertise, and aesthetic edge of a high-end UK design studio—accessible for your single-room project. Designed for clients who desire intelligent spatial thinking and visual clarity before purchasing furniture and finishes.
+          The layout logic, material expertise, and aesthetic edge of a high-end UK design studio—accessible for your single-room project. Designed for clients who desire intelligent spatial thi[...]
         </p>
         <motion.div
           initial={{ opacity: 0 }}
@@ -90,7 +91,7 @@ export default function eDesignPage() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-sm font-bold tracking-[0.3em] text-[#B37038] mb-8" style={{ fontFamily: 'var(--font-montserrat)' }}>WHAT IS own. eDesign?</h2>
           <p className="text-base md:text-lg text-zinc-600 font-light leading-relaxed tracking-wide">
-            A highly structured, purely digital interior design service. Built exclusively for design-conscious clients ready to actively move forward with a room project. With defined packages, exacting deliverables, and a strictly remote process, we provide the professional blueprint; you manage the execution at your own pace.
+            A highly structured, purely digital interior design service. Built exclusively for design-conscious clients ready to actively move forward with a room project. With defined packages, e[...]
           </p>
         </div>
       </section>
@@ -99,9 +100,9 @@ export default function eDesignPage() {
       <section className="py-24 px-6 md:px-12 bg-zinc-50 border-y border-zinc-100">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24 items-center">
           <div className="space-y-8">
-            <h2 className="text-2xl md:text-4xl font-light tracking-[0.15em] leading-snug uppercase" style={{ fontFamily: 'var(--font-montserrat)' }}>INTELLIGENT SPATIAL DESIGN,<br /> <span className="text-[#B37038]">ONLINE.</span></h2>
+            <h2 className="text-2xl md:text-4xl font-light tracking-[0.15em] leading-snug uppercase" style={{ fontFamily: 'var(--font-montserrat)' }}>INTELLIGENT SPATIAL DESIGN,<br /> <span class[...]
             <p className="text-sm text-zinc-500 leading-loose">
-              Most online styling services focus merely on cushions and colour. We bring an architectural eye to your home. By mapping precise scale, zoning, and circulation flow, we ensure you have complete layout confidence before you spend a single pound on furniture or finishes. Avoid costly mistakes and visualize your perfect space with absolute clarity.
+              Most online styling services focus merely on cushions and colour. We bring an architectural eye to your home. By mapping precise scale, zoning, and circulation flow, we ensure you h[...]
             </p>
             <ul className="text-xs uppercase tracking-[0.1em] text-zinc-700 space-y-4 pt-4 border-l-2 border-[#B37038] pl-6">
               <li>— Clearer Design Direction</li>
@@ -110,11 +111,14 @@ export default function eDesignPage() {
               <li>— UK-Wide Accessibility</li>
             </ul>
           </div>
-          <div className="h-[400px] bg-zinc-200 relative overflow-hidden group">
-            {/* Visual Placeholder for high quality image */}
-            <div className="absolute inset-0 flex items-center justify-center text-zinc-400 text-xs tracking-widest uppercase bg-zinc-900 text-white/50">
-              [ Insert Premium Design Image Here ]
-            </div>
+          <div className="h-[400px] relative overflow-hidden group rounded-lg shadow-lg">
+            <Image
+              src="/eDesign/eDesign-intelligent-space-planning.jpg"
+              alt="eDesign Intelligent Space Planning"
+              fill
+              className="object-cover"
+              priority
+            />
           </div>
         </div>
       </section>
@@ -147,7 +151,7 @@ export default function eDesignPage() {
         </div>
         
         <div className="mt-20 flex justify-center">
-          <Link href="/edesign/packages" className="border border-zinc-900 bg-transparent px-10 py-4 text-[10px] font-bold uppercase tracking-[0.3em] text-zinc-900 hover:bg-zinc-900 hover:text-white transition-all duration-500">
+          <Link href="/edesign/packages" className="border border-zinc-900 bg-transparent px-10 py-4 text-[10px] font-bold uppercase tracking-[0.3em] text-zinc-900 hover:bg-zinc-900 hover:text-wh[...]
             View Pricing &amp; Packages
           </Link>
         </div>
@@ -161,10 +165,10 @@ export default function eDesignPage() {
             This digital service is strictly designed for clients who:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6 text-sm text-zinc-800">
-            <div className="flex items-start gap-4"><Check size={20} className="text-[#B37038] shrink-0" /> Are ready to move forward and hold a realistic furniture budget (£3,000+ per room).</div>
-            <div className="flex items-start gap-4"><Check size={20} className="text-[#B37038] shrink-0" /> Are comfortable executing our finished vision themselves or alongside their own trades.</div>
+            <div className="flex items-start gap-4"><Check size={20} className="text-[#B37038] shrink-0" /> Are ready to move forward and hold a realistic furniture budget (£3,000+ per room).</d[...]
+            <div className="flex items-start gap-4"><Check size={20} className="text-[#B37038] shrink-0" /> Are comfortable executing our finished vision themselves or alongside their own trades.[...]
             <div className="flex items-start gap-4"><Check size={20} className="text-[#B37038] shrink-0" /> Can provide accurate dimensions and unedited room photographs.</div>
-            <div className="flex items-start gap-4"><Check size={20} className="text-[#B37038] shrink-0" /> Wish to follow a highly-structured digital package without the need for endless open revisions.</div>
+            <div className="flex items-start gap-4"><Check size={20} className="text-[#B37038] shrink-0" /> Wish to follow a highly-structured digital package without the need for endless open re[...]
           </div>
         </div>
       </section>
@@ -206,9 +210,9 @@ export default function eDesignPage() {
         <div className="max-w-3xl mx-auto">
           <h2 className="text-xl font-light uppercase tracking-[0.2em] mb-6" style={{ fontFamily: 'var(--font-montserrat)' }}>PLANNING AN EXTENSION, KITCHEN, OR LOFT?</h2>
           <p className="text-white/60 tracking-[0.1em] text-sm leading-loose mb-10">
-            Complex architectural work requires detailed coordination deeply extending beyond an online package. Standard eDesign packages are unsuitable for projects involving structural replanning, building regulations, or intensive grid overhauls. We offer a bespoke <strong>Virtual Design Consultation</strong> as an entry point for these scopes.
+            Complex architectural work requires detailed coordination deeply extending beyond an online package. Standard eDesign packages are unsuitable for projects involving structural replann[...]
           </p>
-          <button onClick={() => openContact('Virtual Consultation Enquiry')} className="text-[10px] uppercase tracking-[0.2em] border-b border-[#B37038] text-[#B37038] pb-1 hover:text-white transition-colors">
+          <button onClick={() => openContact('Virtual Consultation Enquiry')} className="text-[10px] uppercase tracking-[0.2em] border-b border-[#B37038] text-[#B37038] pb-1 hover:text-white tran[...]
             Enquire about Virtual Consultation
           </button>
         </div>
