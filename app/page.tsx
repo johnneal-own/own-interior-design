@@ -61,7 +61,7 @@ export default function LandingPage() {
 
           <button 
             onClick={scrollToServices}
-            className="group border border-white/20 bg-transparent px-10 py-4 text-[10px] font-bold uppercase tracking-[0.3em] text-white hover:bg-white hover:text-black transition-all duration-700 flex items-center gap-3"
+            className="group border border-white/20 bg-transparent px-10 py-4 text-[10px] font-bold uppercase tracking-[0.3em] text-white hover:bg-white hover:text-black transition-all duration-70[...]
           >
             Explore Services
             <ArrowDown size={14} className="group-hover:translate-y-1 transition-transform" />
@@ -94,7 +94,7 @@ export default function LandingPage() {
             <ServiceBox 
               title="eDesign SERVICE" 
               desc="Professional interior design delivered digitally. The perfect solution for individual room transformations anywhere in the UK."
-              img="/edesign_concept.png"
+              img="/eDesign/eDesign-intelligent-space-planning.jpg"
               altText="Online eDesign services UK virtual interior design for individual rooms"
               isFullWidth
               link="/edesign"
@@ -110,7 +110,7 @@ export default function LandingPage() {
             The Philosophy
           </h2>
           <p className="text-white/70 tracking-[0.1em] leading-loose text-sm md:text-base mb-12">
-            Established in 2015, Own. Interior Design has spent a decade proving that spaces should reflect the unique personality and vision of those who occupy them. Operating from our Nottingham studio, our approach blends sophisticated aesthetics with functional purpose. Let us translate your ideas into a perfectly curated environment.
+            Established in 2015, Own. Interior Design has spent a decade proving that spaces should reflect the unique personality and vision of those who occupy them. Operating from our Nottingh[...]
           </p>
           <Link href="/about" className="text-white border border-white/20 px-8 py-3 text-[10px] uppercase tracking-[0.2em] hover:bg-white hover:text-black transition-all duration-300 mb-12">
             Read About Us
@@ -130,7 +130,7 @@ export default function LandingPage() {
                 A decade of design insights, studio news, and technical deep-dives into our architectural process.
               </p>
             </div>
-            <Link href="#" className="text-[10px] font-bold uppercase tracking-[0.2em] border-b border-zinc-900 pb-1 hover:text-[#B37038] hover:border-[#B37038] transition-colors whitespace-nowrap" style={{ fontFamily: 'var(--font-montserrat)' }}>
+            <Link href="#" className="text-[10px] font-bold uppercase tracking-[0.2em] border-b border-zinc-900 pb-1 hover:text-[#B37038] hover:border-[#B37038] transition-colors whitespace-nowra[...]
               View All Entries
             </Link>
           </div>
@@ -140,10 +140,10 @@ export default function LandingPage() {
             <Link href="/journal/welcome" className="group flex flex-col cursor-pointer">
               <div className="w-full aspect-[4/3] bg-zinc-200 relative overflow-hidden mb-6">
                 <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500 z-10" />
-                <Image src="/journal/001_Own. journal/Luolai-cafe-bakery-retail.jpg" alt="Welcome to Own. Interior Design" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
+                <Image src="/journal/001_Own. journal/Luolai-cafe-bakery-retail.jpg" alt="Welcome to Own. Interior Design" fill className="object-cover group-hover:scale-105 transition-transform [...]
               </div>
               <div className="text-[10px] text-[#B37038] font-bold uppercase tracking-[0.2em] mb-4" style={{ fontFamily: 'var(--font-montserrat)' }}>Studio News &bull; April 2026</div>
-              <h3 className="text-lg md:text-xl font-light tracking-[0.1em] uppercase mb-4 group-hover:text-[#B37038] transition-colors leading-snug" style={{ fontFamily: 'var(--font-montserrat)' }}>
+              <h3 className="text-lg md:text-xl font-light tracking-[0.1em] uppercase mb-4 group-hover:text-[#B37038] transition-colors leading-snug" style={{ fontFamily: 'var(--font-montserrat)'[...]
                 WELCOME TO OWN. INTERIOR DESIGN
               </h3>
               <p className="text-xs md:text-sm text-zinc-500 leading-loose line-clamp-3">
@@ -155,12 +155,12 @@ export default function LandingPage() {
             <Link href="#" className="group flex flex-col cursor-pointer mt-0 md:mt-16">
               <div className="w-full aspect-[4/3] bg-zinc-200 relative overflow-hidden mb-6">
                 <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500 z-10" />
-                <div className="absolute inset-0 flex items-center justify-center text-zinc-400 text-[10px] tracking-widest uppercase bg-zinc-200 group-hover:scale-105 transition-transform duration-700">
+                <div className="absolute inset-0 flex items-center justify-center text-zinc-400 text-[10px] tracking-widest uppercase bg-zinc-200 group-hover:scale-105 transition-transform durati[...]
                   [ Image Placeholder ]
                 </div>
               </div>
               <div className="text-[10px] text-[#B37038] font-bold uppercase tracking-[0.2em] mb-4" style={{ fontFamily: 'var(--font-montserrat)' }}>Insights &bull; Mar 2021</div>
-              <h3 className="text-lg md:text-xl font-light tracking-[0.1em] uppercase mb-4 group-hover:text-[#B37038] transition-colors leading-snug" style={{ fontFamily: 'var(--font-montserrat)' }}>
+              <h3 className="text-lg md:text-xl font-light tracking-[0.1em] uppercase mb-4 group-hover:text-[#B37038] transition-colors leading-snug" style={{ fontFamily: 'var(--font-montserrat)'[...]
                 THE PSYCHOLOGY OF LIGHT IN RESIDENTIAL DESIGN
               </h3>
               <p className="text-xs md:text-sm text-zinc-500 leading-loose line-clamp-3">
@@ -172,12 +172,12 @@ export default function LandingPage() {
             <Link href="#" className="group flex flex-col cursor-pointer mt-0 md:mt-32">
               <div className="w-full aspect-[4/3] bg-zinc-200 relative overflow-hidden mb-6">
                 <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500 z-10" />
-                <div className="absolute inset-0 flex items-center justify-center text-zinc-400 text-[10px] tracking-widest uppercase bg-zinc-200 group-hover:scale-105 transition-transform duration-700">
+                <div className="absolute inset-0 flex items-center justify-center text-zinc-400 text-[10px] tracking-widest uppercase bg-zinc-200 group-hover:scale-105 transition-transform durati[...]
                   [ Image Placeholder ]
                 </div>
               </div>
               <div className="text-[10px] text-[#B37038] font-bold uppercase tracking-[0.2em] mb-4" style={{ fontFamily: 'var(--font-montserrat)' }}>Studio News &bull; Est. 2015</div>
-              <h3 className="text-lg md:text-xl font-light tracking-[0.1em] uppercase mb-4 group-hover:text-[#B37038] transition-colors leading-snug" style={{ fontFamily: 'var(--font-montserrat)' }}>
+              <h3 className="text-lg md:text-xl font-light tracking-[0.1em] uppercase mb-4 group-hover:text-[#B37038] transition-colors leading-snug" style={{ fontFamily: 'var(--font-montserrat)'[...]
                 A DECADE OF DELIVERING INTENTIONAL SPACES
               </h3>
               <p className="text-xs md:text-sm text-zinc-500 leading-loose line-clamp-3">
@@ -205,7 +205,7 @@ export default function LandingPage() {
               <p className="text-white/50 text-xs tracking-wide leading-loose mb-10 flex-grow font-light">
                 Full-service interior architecture and design for large-scale luxury residential renovations and new builds across the UK.
               </p>
-              <button onClick={() => openContact('Bespoke Residential Consultation')} className="text-white text-[10px] font-bold tracking-[0.2em] uppercase border-b border-white pb-1 w-max group-hover:text-[#B37038] group-hover:border-[#B37038] transition-colors text-left">
+              <button onClick={() => openContact('Bespoke Residential Consultation')} className="text-white text-[10px] font-bold tracking-[0.2em] uppercase border-b border-white pb-1 w-max group[...]
                 Arrange a Consultation
               </button>
             </div>
@@ -217,7 +217,7 @@ export default function LandingPage() {
               <p className="text-white/50 text-xs tracking-wide leading-loose mb-10 flex-grow font-light">
                 The layout logic and aesthetic edge of a high-end UK design studio—accessible completely digitally for your single-room project.
               </p>
-              <Link href="/edesign" className="bg-[#B37038] text-center text-white px-8 py-4 text-[10px] font-bold tracking-[0.3em] uppercase hover:bg-white hover:text-black transition-colors w-full">
+              <Link href="/edesign" className="bg-[#B37038] text-center text-white px-8 py-4 text-[10px] font-bold tracking-[0.3em] uppercase hover:bg-white hover:text-black transition-colors w-f[...]
                 Explore Packages
               </Link>
             </div>
@@ -228,7 +228,7 @@ export default function LandingPage() {
               <p className="text-white/50 text-xs tracking-wide leading-loose mb-10 flex-grow font-light">
                 Retail, Food & Beverage, Hospitality, and Corporate workplace design backed by intense operational strategy.
               </p>
-              <button onClick={() => openContact('Commercial Project Enquiry')} className="text-white text-[10px] font-bold tracking-[0.2em] uppercase border-b border-white pb-1 w-max group-hover:text-[#B37038] group-hover:border-[#B37038] transition-colors text-left">
+              <button onClick={() => openContact('Commercial Project Enquiry')} className="text-white text-[10px] font-bold tracking-[0.2em] uppercase border-b border-white pb-1 w-max group-hover[...]
                 Contact the Studio
               </button>
             </div>
@@ -255,7 +255,7 @@ export default function LandingPage() {
       <ContactModal isOpen={isContactOpen} onClose={() => setIsContactOpen(false)} defaultSubject={contactSubject} />
 
       {/* WHATSAPP FLOAT */}
-      <a href="https://wa.me/447XXXXXXXXX" target="_blank" rel="noopener noreferrer" className="fixed bottom-10 right-10 z-50 bg-[#25D366] p-4 rounded-full shadow-[0_0_20px_rgba(37,211,102,0.5)] hover:bg-[#20bd5a] hover:scale-110 transition-all duration-300" aria-label="Contact us on WhatsApp">
+      <a href="https://wa.me/447XXXXXXXXX" target="_blank" rel="noopener noreferrer" className="fixed bottom-10 right-10 z-50 bg-[#25D366] p-4 rounded-full shadow-[0_0_20px_rgba(37,211,102,0.5)] [...]
         <MessageCircle size={28} color="white" />
       </a>
     </motion.main>
