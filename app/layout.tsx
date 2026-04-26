@@ -3,6 +3,7 @@ import { Montserrat, Montserrat_Alternates } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import Navigation from "../components/Navigation";
+import { Analytics } from "@vercel/analytics/next";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -38,6 +39,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         `}} />
         <Navigation />
         {children}
+        <Analytics />
       </body>
     </html>
   );
