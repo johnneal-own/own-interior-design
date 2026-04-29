@@ -30,12 +30,12 @@ export default function eDesignPage() {
   };
 
   const faqs = [
-    { q: "What exactly is own. eDesign?", a: "A rigidly structured digital interior design service. We provide professional layouts, material coordination, and shopping specifications remotely. Yo[...]
-    { q: "Do my measurements need to be exact?", a: "Yes. Because we operate entirely remotely, our CAD layouts are built directly on the accuracy of the measurements you provide via the portal. W[...]
-    { q: "How many revisions are included?", a: "Every package encompasses one consolidated round of revisions. This keeps the project moving smoothly and secures aesthetic alignment without endle[...]
-    { q: "Does this work for rented properties?", a: "Absolutely. We specify non-permanent, high-impact fixtures alongside curated FF&E that easily elevates your space without risking your deposit[...]
-    { q: "Can I use this service for a kitchen or extension remodel?", a: "No. Extensive architectural scopes involving plumbing, major electrical grids, and structural reconfiguration require bes[...]
-    { q: "What happens after I purchase?", a: "You will immediately secure your slot in our studio schedule and be redirected to our secure Client Portal. You simply complete your project brief, u[...]
+    { q: "What exactly is own. eDesign?", a: "A rigidly structured digital interior design service. We provide professional layouts, material coordination, and shopping specifications remotely. You maintain control of the budget and manage the physical purchasing and tradesman installation at your own pace." },
+    { q: "Do my measurements need to be exact?", a: "Yes. Because we operate entirely remotely, our CAD layouts are built directly on the accuracy of the measurements you provide via the portal. We supply a simple guide to aid you in this process." },
+    { q: "How many revisions are included?", a: "Every package encompasses one consolidated round of revisions. This keeps the project moving smoothly and secures aesthetic alignment without endless timeline drift." },
+    { q: "Does this work for rented properties?", a: "Absolutely. We specify non-permanent, high-impact fixtures alongside curated FF&E that easily elevates your space without risking your deposit." },
+    { q: "Can I use this service for a kitchen or extension remodel?", a: "No. Extensive architectural scopes involving plumbing, major electrical grids, and structural reconfiguration require bespoke design and localised coordination beyond a remote package." },
+    { q: "What happens after I purchase?", a: "You will immediately secure your slot in our studio schedule and be redirected to our secure Client Portal. You simply complete your project brief, upload your photos/dimensions, and our studio review kicks off the timeline." }
   ];
 
   return (
