@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowLeft, ChevronDown, ChevronUp, Check } from 'lucide-react';
 import ContactModal from '@/components/ContactModal';
 
@@ -111,12 +112,12 @@ export default function eDesignPage() {
               <li>— UK-Wide Accessibility</li>
             </ul>
           </div>
-          <div className="h-[400px] relative overflow-hidden group rounded-lg shadow-lg">
-            <Image
-              src="/eDesign/eDesign-intelligent-space-planning.jpg"
-              alt="eDesign Intelligent Space Planning"
-              fill
-              className="object-cover"
+          <div className="h-[400px] bg-zinc-200 relative overflow-hidden group rounded-lg shadow-lg">
+            <Image 
+              src="/eDesign/eDesign-intelligent-space-planning.jpg" 
+              alt="Intelligent Space Planning eDesign" 
+              fill 
+              className="object-cover group-hover:scale-105 transition-transform duration-700"
               priority
             />
           </div>
